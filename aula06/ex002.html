@@ -23,9 +23,12 @@
 
 
     <script>
-       window.alert("Minha primeira mensagem") 
-       window.confirm("Está gostando de JavaScript?") // janela com botao ok e enviar
-       window.prompt("Qual é seu nome?") // vai perguntar o nome
+       var nome = window.prompt("Qual é seu nome?") // vai perguntar o nome
+       window.alert ("É um grande prazer te conhecer, " + nome) // + serve de concatenação 
+
+       var mood = window.confirm ("Está gostando de aprender JavaScript?")
+       var texto = window.alert ("É bom saber que esta gostando, "  + nome)
+       var lala = window.prompt ("Tem alguma outra linguagem que planeja aprender? " + nome)
     </script>
 </body>
 </html>
