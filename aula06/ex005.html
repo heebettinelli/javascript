@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo D.O.M</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Iniciando estudos com D.O.M</h1>
+    <p>Aqui vemos o resultado</p>
+    <p>Aprendendo a usar <strong>D.O.M </strong>em JavaScript.</p>
+    <div>Clique aqui!</div>
+    <br>
+     
+    <script>
+        var p1 = window.document.getElementsByTagName("p")[0]
+        window.document.write("vai repitir o primeiro paragrafo: <br/> " + p1.innerText ) 
+        p1.style.color = "blue"
+        
+        
+    </script>
 </body>
 </html>
