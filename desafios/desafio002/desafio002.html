@@ -6,22 +6,21 @@
     <title>Desafio 002</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="carregar()">
     <header>
         <h1>Hora do Dia</h1>
     </header>
     <section>
-        <div class="card">
-                <div class="dados">
-                    <h3>Agora são: </h3>
-                    <img src="assets/nascer-do-sol.jpeg" alt="">
-                </div>
+        <div id="msg">
+            Aqui vai aparecer a mensgem...
+        </div>
+        <div id="foto">
+            <img id="img" src="assets/nascer-do-sol.jpeg" alt="foto do dia">
         </div>
     </section>
     <footer>
         <p>@Helenbettinelli</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
