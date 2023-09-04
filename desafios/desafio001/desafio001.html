@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <h1>Verificador de Idade</h1>
@@ -14,9 +16,25 @@
                 Feminino<input type="radio" name="sexo" id="sexo">
                 Masculino<input type="radio" name="sexo" id="sexo">
             </p>
-            <input type="button" value="Verificar">
+            <input type="button" value="Verificar" onclick="verificar()">
+            <div class="res">
+
+            </div>
         </div>
         <img src="#" alt="">
     </div>
+
+    <script>
+        function verificar() {
+            var ano = window.document.querySelector("input#ano")
+            var sexo = window.document.querySelector("input#sexo")
+            var res = window.document.querySelector("div#res")
+            var ano = String (ano.value)
+            var sexo = Selection (sexo.value)
+
+            
+        }
+
+    </script>
 </body>
 </html>
