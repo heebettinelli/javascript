@@ -39,6 +39,10 @@
         color: white;
         display: block;
     }
+
+    footer {
+        color: white;
+    }
 }
 
 
@@ -74,5 +78,9 @@
     h1 {
         color: white;
         display: block;
+    }
+
+    footer {
+        color: white;
     }
 }
