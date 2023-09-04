@@ -77,4 +77,9 @@
         height: 300px;
         border-radius: 50%;
     }
+
+    div {
+        text-align: center;
+        padding: 10px
+    };
 } 
