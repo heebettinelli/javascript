@@ -9,43 +9,27 @@
     
     body{
         background-color: cornflowerblue ;
-        
-        
     }
-    #card {
+
+    header {
+        color: white;
+        text-align: center;
+    }
+
+    section {
         background-color: #fafafa;
         border-radius: 10px;
-        padding: 15px;
-        width: 80vw;
-        height: 50vh;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        box-shadow: 1px 4px 5px 0.5px #343434;
-    }
-
-    #dados{
-        font-size: 16px;
-
-    }
-
-    #ano {
-        border-radius: 3px;
-        border-color: lightgray;   
-    }
-
-    h1 {
-        color: white;
-        display: block;
+        margin: auto;
+        width: 85vw;
+        padding: 20px 15px;
+        box-shadow: 1px 4px 5px 0.5px #343434b0;
     }
 
     footer {
+        text-align: center;
         color: white;
     }
 }
-
-
 
 @media screen and (min-width: 781px) and (max-width: 2100px) {
     body{
@@ -61,7 +45,7 @@
         background-color: #fafafa;
         border-radius: 10px;
         margin: auto;
-        width: 500px;
+        width: 70vw;
         padding: 20px 15px;
         box-shadow: 1px 4px 5px 0.5px #343434b0;
     }
@@ -71,15 +55,9 @@
         color: white;
     }
 
-    #ano {
-        border-radius: 3px;
-        border-color: lightgray;   
-    }
+    
 
-    #dados{
-        font-size: 18px;
-
-    }
+    
 
     
 }
