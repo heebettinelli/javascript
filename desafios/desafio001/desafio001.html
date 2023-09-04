@@ -8,41 +8,26 @@
     
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Verificador de Idade</h1>
-        </header>
-        <section id="card">
-            <div id="dados">
-                <p>Ano do nascimento <input type="date" name="ano" id="ano"></p>
-                <p>Sexo:
-                    Feminino<input type="radio" name="sexo" id="sexo">
-                    Masculino<input type="radio" name="sexo" id="sexo">
-                </p>
-                <input type="button" value="Verificar" onclick="verificar()">
-                <div class="res">
-                    <img src="#" alt="">
-                </div>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section id="card">
+        <div id="dados">
+            <p>Ano do nascimento <input type="date" name="ano" id="ano"></p>
+            <p>Sexo:
+                Feminino<input type="radio" name="sexo" id="sexo">
+                Masculino<input type="radio" name="sexo" id="sexo">
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <div class="res">
+                <img src="#" alt="">
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
     <footer>
         <p>@Helenbettinelli</p>
     </footer>
-
-
-    <script>
-        function verificar() {
-            var ano = window.document.querySelector("input#ano")
-            var sexo = window.document.querySelector("input#sexo")
-            var res = window.document.querySelector("div#res")
-            var ano = String (ano.value)
-            var sexo = Selection (sexo.value)
-            res.innerHTML = `Dectamos ${sexo} de ${ano} anos`
-
-            window.document.write(`Dectamos ${sexo} de ${ano} anos`)
-            
-        }
-    </script>
+    
+   <script src="script.js"></script>
 </body>
 </html>

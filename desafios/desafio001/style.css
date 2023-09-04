@@ -13,15 +13,15 @@
         
     }
     #card {
-        position: absolute;
-        width: 80vw;
-        height: 50vh;
         background-color: #fafafa;
         border-radius: 10px;
+        padding: 15px;
+        width: 80vw;
+        height: 50vh;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        padding: 20px 15px;
         box-shadow: 1px 4px 5px 0.5px #343434;
     }
 
@@ -52,17 +52,23 @@
         background-color: darkseagreen;
     }
 
-    #card {
-        position: absolute;
-        width: 80vw;
-        height: 50vh;
+    header {
+        color: white;
+        text-align: center;
+    }
+
+    section {
         background-color: #fafafa;
         border-radius: 10px;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
+        margin: auto;
+        width: 500px;
         padding: 20px 15px;
-        box-shadow: 1px 4px 5px 0.5px #343434;
+        box-shadow: 1px 4px 5px 0.5px #343434b0;
+    }
+
+    footer {
+        text-align: center;
+        color: white;
     }
 
     #ano {
@@ -75,12 +81,5 @@
 
     }
 
-    h1 {
-        color: white;
-        display: block;
-    }
-
-    footer {
-        color: white;
-    }
+    
 }
