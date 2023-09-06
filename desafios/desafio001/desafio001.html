@@ -13,10 +13,11 @@
     </header>
     <section id="card">
         <div id="dados">
-            <p>Ano do nascimento <input type="date" name="ano" id="ano"></p>
+            <p>Ano do nascimento <input type="number" name="ano" id="txtano" min="0"></p>
+            <!-- quando colocar radio, lembrar de deixar ambas as opcoes com o mesmo name, caso contrario nao vai funcionar e vai marcar todas as opcoes que eu clicar -->
             <p>Sexo:
-                Feminino<input type="radio" name="sexo" id="sexo">
-                Masculino<input type="radio" name="sexo" id="sexo">
+                Feminino<input type="radio" name="radsex" id="fem" checked>
+                Masculino<input type="radio" name="radsex" id="masc">
             </p>
             <input type="button" value="Verificar" onclick="verificar()">
             <div class="res">
