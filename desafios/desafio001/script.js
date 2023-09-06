@@ -27,9 +27,11 @@ function verificar() {
             } else if (idade < 50) {
                 //adulto
                 img.setAttribute("src", "assets/adulto-fem.jpg")
-            } else {
+            } else if (idade <= 100) {
                 //idoso
                 img.setAttribute("src", "assets/idoso-fem.jpg")
+            } else {
+                img.setAttribute("src", "assets/rip.jpg")
             }
 
        } else if (fsex[1].checked){
@@ -40,8 +42,10 @@ function verificar() {
                 img.setAttribute("src","assets/jovem-masc.jpg")
             } else if (idade < 50){
                 img.setAttribute("src", "assets/adulto-masc.jpg")
-            } else {
+            } else if (idade <= 100) {
                 img.setAttribute("src","assets/idoso-masc.jpg")
+            } else {
+                img.setAttribute("src" , "assets/rip.jpg")
             }
        }
        //usei style para centralizar o paragrafo do res
