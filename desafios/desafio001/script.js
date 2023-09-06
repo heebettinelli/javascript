@@ -20,20 +20,35 @@ function verificar() {
             genero = "Mulher"
             if (idade >=0 && idade <10){
                 //criança
+                img.setAttribute("src", "assets/crianca-fem.jpg")
             } else if (idade < 21) {
                 //jovem
+                img.setAttribute("src", "assets/jovem-fem.jpg")
             } else if (idade < 50) {
                 //adulto
+                img.setAttribute("src", "assets/adulto-fem.jpg")
             } else {
                 //idoso
+                img.setAttribute("src", "assets/idoso-fem.jpg")
             }
 
        } else if (fsex[1].checked){
             genero = "Homem"
+            if (idade >=0 && idade <10){
+                img.setAttribute("src", "assets/crianca-masc.jpg")
+            } else if (idade < 21){
+                img.setAttribute("src","assets/jovem-masc.jpg")
+            } else if (idade < 50){
+                img.setAttribute("src", "assets/adulto-masc.jpg")
+            } else {
+                img.setAttribute("src","assets/idoso-masc.jpg")
+            }
        }
        //usei style para centralizar o paragrafo do res
        res.style.textAlign = "center"
        res.innerHTML = `<p>Detectamos ${genero} com ${idade} anos.</p>`
+       //eu vou adicionar um elementos
+       res.appendChild(img)
        
     }
     
