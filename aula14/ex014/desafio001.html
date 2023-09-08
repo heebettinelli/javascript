@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="verificar()">
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section id="card">
+        <div id="dados">
+            <p>Ano do nascimento <input type="number" name="ano" id="txtano" min="0"></p>
+            <!-- quando colocar radio, lembrar de deixar ambas as opcoes com o mesmo name, caso contrario nao vai funcionar e vai marcar todas as opcoes que eu clicar -->
+            <p>Sexo:
+                Feminino<input type="radio" name="radsex" id="fem" checked>
+                Masculino<input type="radio" name="radsex" id="masc">
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <div class="res">
+                <img src="#" alt="">
+                <p>Preencha os dados acima para ver o resultado!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>@Helenbettinelli</p>
+    </footer>
+    
+   <script src="script.js"></script>
+</body>
+</html>
