@@ -1,4 +1,4 @@
-function contar() {
+function count() {
     var inicio = document.querySelector("input#txti")
     var fim = document.querySelector("input#txtf")
     var passo = document.querySelector("input#txtp")
