@@ -12,10 +12,6 @@ header {
     text-align: center;
 }
 
-div{
-    padding: 5px;
-}
-
 section {
     background: white;
     border-radius: 10px;
@@ -23,6 +19,10 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+select {
+    padding: 5px;
 }
 
 footer {
